@@ -1,2 +1,32 @@
-name: ImagineThis Docs
-markdown: kramdown
+title: jekyll-rtd-theme
+lang: en
+description: Just another jekyll docs theme compatible with GitHub Pages
+
+theme: null
+
+edit: true
+addons_branch: true
+
+addons:
+  - github
+  - i18n
+  - plugins
+  - analytics
+
+copyright:
+  revision: true
+
+readme_index:
+  with_frontmatter: true
+
+sass:
+  style: compressed
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - requirements.txt
+  - jekyll-rtd-theme.gemspec
