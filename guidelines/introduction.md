@@ -1,7 +1,3 @@
----
-sort: 1
----
-
 # Designing for Imagine This
 
 This tool can take a Figma UI design and generate the code required for a React Native Application. There is some key consideration when designing the UI within Figma. This section helps further elaborate this and describe how to organise UI elements to allow for optimal code conversion.
