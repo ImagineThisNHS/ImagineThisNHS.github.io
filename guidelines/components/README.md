@@ -4,8 +4,5 @@ sort: 2
 
 # Components
 
-```
-{% include list.liquid all=true %}
-```
-
+Table of Contents
 {% include list.liquid all=true %}
