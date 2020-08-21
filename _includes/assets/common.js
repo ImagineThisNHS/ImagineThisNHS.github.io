@@ -2,6 +2,23 @@ $(document).ready(function() {
     let analytics = new URL("https://rundocs-analytics.glitch.me/collect?v={{ version }}&lang={{ lang }}");
     let highlight = new URL(location.href).searchParams.get("highlight");
 
+    /* content toc */
+    $(".wy-menu-vertical li.current").append(function() {
+        let level = parseInt($(this).attr("class").match(/toctree-l(\d)/)[1]) + 1;
+        let toc = ["<ul>"];
+
+        $(".document").find("h2,h3,h4,h5,h6").each(function() {
+            toc.push(`<li class="toctree-l${level}"><a class="reference internal" href="#${this.id}">${$(this).text()}</a></li>`);
+        });
+        toc.push("</ul>");
+        /* return is apend */
+        if (toc.length == 2) {
+            return "";
+        } else {
+            return toc.join("");
+        }
+    });
+
     SphinxRtdTheme.Navigation.reset = function() {
         const link = $(".wy-menu-vertical").find(`[href="${location.pathname}"]`);
         if (link.length > 0) {
@@ -33,11 +50,9 @@ $(document).ready(function() {
             }
         });
     }
-    for (let item in ui.admonition) {
-        $(`.language-${item}`).each(function() {
-            $(this).replaceWith(`<div class="admonition ${item}"><p class="admonition-title">${ui.admonition[item]}</p><p>${$(this).html()}</p></div>`);
-        });
-    }
+    $(".admonition-title").each(function() {
+        $(this).html(ui.admonition[$(this).attr("ui")]);
+    });
     anchors.add();
 
     analytics.searchParams.append("user_lang", navigator.language);
