@@ -6,7 +6,7 @@ Background elements are the last elemement with a group that is name `background
 
 Background is defined as having a background panel in the group. Therefore this element needs to be name `background` This is shown in the image below.
 
-![Image showing](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png)
 
 Once you have a whole set of components that are all on top of a background, and they are grouped together, that element is now the background.
 
