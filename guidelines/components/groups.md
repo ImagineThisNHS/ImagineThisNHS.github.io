@@ -1,7 +1,9 @@
 # Groups, Frames, and Components
 
 ```warning
-Only Groups are currently supported by this tool. You need to change all Frames and Components to Groups to allow for the best conversion to useable code.
+Only Groups are currently supported by this tool. 
+
+Frames and Components need to be changed to Groups to allow for conversion to useable code.
 ```
 Similar to other design tools, groups in Figma allow you to combine multiple elements as a single top-level layer.
 
