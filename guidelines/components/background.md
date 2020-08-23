@@ -4,7 +4,7 @@
 Background elements are the last elemement with a group that is name `background`
 ```
 
-Background is defined as having a background panel in the group. Therefore this element needs to be name `background` This is shown in the image below.
+Background is defined as having a background panel in the group. Therefore this element needs to be name `background`.This is shown in the image below.
 
 ![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png)
 
