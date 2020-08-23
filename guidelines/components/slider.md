@@ -1,9 +1,5 @@
 # Slider
 
-```danger
-This page is under construction
-```
-
 ## Styling
 No styling requirements
 
