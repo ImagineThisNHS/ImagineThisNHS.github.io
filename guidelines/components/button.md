@@ -15,8 +15,8 @@ An figma element composed of a _rectangle_ and _text_ will be recognised as a te
 
 ### Naming & Grouping
 * The text button should be a group.
-* The group name should contains `textbutton`.
-* Besides text, the group should also contains a rectangle.
+* The group name should contain `textbutton`.
+* Besides text, the group should also contain a rectangle.
 
 
 ## Image Button
