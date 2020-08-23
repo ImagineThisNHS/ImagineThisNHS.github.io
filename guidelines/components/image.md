@@ -1,6 +1,6 @@
 # Images
 
-```Note
+```note
 All image element name's should contain `picture`
 ```
 ## Styling
