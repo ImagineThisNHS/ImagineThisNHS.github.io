@@ -6,7 +6,7 @@ No styling requirements
 ## Naming and Grouping
 * Textbox elements should be in a group.
 * Name of the group for the textbox must contain `textbox`.
-* Within the the group **must** include a rectangle (frame of the text box).
+* Within the group it **must** include a rectangle (frame of the text box).
 * This rectangle's name should include `rectangle`.
 
 ### Placeholders

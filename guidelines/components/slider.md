@@ -4,7 +4,7 @@
 No styling requirements
 
 ## Naming & Grouping
-The slider in a group named `slider`.
+The slider element should be named in a group called `slider`.
 
 Within the group the values should be named accordingly
 * The text of the maximum value should be named `max_value`.
