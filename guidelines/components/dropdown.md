@@ -5,11 +5,11 @@
 
 ## Naming & Grouping
 
-Components will need to adhere to the following these rules:
+Components will need to adhere to the following rules:
 
 1. The whole dropdown selector must be a group
 2. This group's name must contain `dropdown`
-3. A dropdown group must only have one 'option'. This will an option of the drop-down selector.
+3. A dropdown group must only have one 'option'. This will be an option of the drop-down selector.
 4. The name of the option text should follow `option ChoiceHere` (blank space in between).
 
 ### Example of Naming & Grouping
