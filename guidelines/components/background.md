@@ -1,19 +1,18 @@
 # Background
 
-```note
-Background elements are the last elemement with a group that is name `background`
-```
+Background elements are usually the last element within a view that covers the entire view.
 
-Background is defined as having a background panel in the group. Therefore this element needs to be name `background`.This is shown in the image below.
+The blue gradient, in the example below, shows a background element
 
-![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png)
-
-Once you have a whole set of components that are all on top of a background, and they are grouped together, that element is now the background.
+![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png
 
 ## Styling
 Any color and shape are accepted 
 
 ## Naming
-Background naming rules are slightly stricter than others. Background must be named as `background` and cannot contains other words such as `background 1` or `white background`.
+Background elements will need to be named  `background`. Additionally, it cannot contains other words such as `background 1` or `white background`.
 
-However, the case of letters does not affect the recognition of component names, both `Background` and `background` are correct and accepted.
+However, the case of letters does not affect the recognition of component names; both `Background` and `background` are correct and accepted.
+
+## Grouping
+All elements and UI components need to be ordered above the background element within a group.
