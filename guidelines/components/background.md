@@ -9,12 +9,12 @@ The blue gradient, in the example below, shows a background element
 ## Styling
 Any solid colour and shape will be recognised. 
 
-Gradients are not supported at this time
+This tool currently does not support gradients because their translation into React-Native is not simple and requires the use of an external package. One of the gradient colors will be used as a solid background instead.
 
 ## Naming
-Background elements will need to be named  `background`. Additionally, it cannot contains other words such as `background 1` or `white background`.
+Background elements should be named  `background`. Additionally, the name should not contain other words such as `background 1` or `white background`.
 
-However, the case of letters does not affect the recognition of component names; both `Background` and `background` are correct and accepted.
+However, the case of letters does not affect the recognition of component names; both `Background` and `background` are correct and translated into code correctly.
 
 ## Grouping
 All elements and UI components need to be ordered above the background element within a group.
