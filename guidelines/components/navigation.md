@@ -3,7 +3,7 @@
 The bottom navigation bar provides quick navigation between the top-level views of an app.
 
 ## Styling
-A rectangle is required in the navigation bar to serve as a background.
+A rectangle is required within the navigation bar group to serve as a background.
 
 ## Naming & Grouping
 The entire navigation bar should be organized into a group named "navigation bar".
