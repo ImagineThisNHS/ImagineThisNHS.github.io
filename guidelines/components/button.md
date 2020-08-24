@@ -11,7 +11,7 @@ _Example of Text Button Apperance_
 
 
 ### Styling
-An figma element composed of a _rectangle_ and _text_ will be recognised as a text button.
+A Figma element composed of a _rectangle_ and _text_.
 
 ### Naming & Grouping
 * The text button should be a group.
@@ -24,11 +24,11 @@ An figma element composed of a _rectangle_ and _text_ will be recognised as a te
 
 _Examples of Image Button Apperance_
 
-## Styling
-A figma element composed of graphics (or group of shapes) without text.
+### Styling
+A Figma element composed of _graphics (or group of shapes)_ without text.
 
 ### Naming & Grouping
-* The image button should be a _group_.
+* The image button should be a group.
 * The group name should contain `imagebutton`.
 * The image button should contain a sub-group named `image`.
 * The image group should only be composed of graphics - no text elements should be present
