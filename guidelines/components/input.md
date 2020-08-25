@@ -1,4 +1,5 @@
 # Input field
+Input fields allow users to type in an app. Typically it is used within forms, send messages, search boxes, and more.
 
 ## Styling
 No styling requirements
