@@ -9,6 +9,7 @@ Here is a basic overview of how the Imagine This tool works. This will help expl
 2. The user selects the view that they would like to be converted into React Native Code
 3. For each of the selected views, all layers are traversed by the tool
 4. Each layer’s name, attributes (size, border, shape, etc.) are used to determine the UI element
+5. A partial template will be generated for the Figma sketch. The output will be in the form of a zip, with files in their correponding position in the application folder. 
 
 ## Naming Scheme
 Based on the description of how the system works, one of the core methods of identifying a UI component is through its name. For example, a text input field should include “Text Box” within its name, and a dropdown selector should be named as “Dropdown”. Apart from assisting us in component recognition, following these naming conventions and file structure in Figma will ensure good document readability and will enable reuse of components. It is considered good design practice and will be appreciated by any fellow designer who inherits the Figma project. To get the most out of the Imagine This tool, we strongly recommend reading about our recommended naming conventions in the 'Components' section. If these conventions are not followed, this tool will still attempt to recognise UI elements and generetate their code, however, some design UI elements may not be recognised fully and correctly and the generated code may be incomplete.
