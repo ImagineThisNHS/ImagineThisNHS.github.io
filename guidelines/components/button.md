@@ -32,5 +32,5 @@ A Figma element composed of _graphics (or group of shapes)_ without text.
 ### Naming & Grouping
 * The image button should be a group.
 * The group name should contain the word`imagebutton`.
-* The image button should contain a sub-group named `image`.
+* The image button group should contain a sub-component with its type being Rectangle and its name containing one of the words `image`, `icon` or `picture`.
 * The image group should only be composed of graphics - no text elements should be present
