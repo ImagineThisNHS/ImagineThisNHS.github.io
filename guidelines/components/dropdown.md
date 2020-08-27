@@ -10,6 +10,7 @@ The design typically includes a rectangular border and a downward icon to indica
 * The text above will be extracted as the first option within the dropdown. There will be other default options generated along with it as placeholder, the user can add or rename them on the corresponding page if they want. 
 
 ![image showing dropdown_placeholder](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/dropdown.png?raw=true)
+
 _Example of Placeholder Option_
 
 ### Example of Naming & Grouping
