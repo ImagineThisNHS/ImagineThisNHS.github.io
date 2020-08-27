@@ -13,4 +13,4 @@ The dropdown selector contains an option called “Football”. Therefore, the g
 
 ![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image.png?raw=true)
 
-_(Left)Grouping of layers (Right)Figma Designed Image_
+_(Left) Grouping of layers  (Right) Figma Designed Image_
