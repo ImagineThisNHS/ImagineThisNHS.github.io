@@ -11,4 +11,4 @@ Similar to other design tools, groups in Figma allow you to combine multiple ele
 
 In your Figma design, it’s possible that you also used two other functions that can combine many elements such as Frame and Component. However, these two combination methods are currently not supported within this tool. Only Groups are presently supported.
 
-Also note that most of the frontend components are recognized through its name and grouping. Most of the components can only be recognized when they are not in a group. Most groups without proper naming cannot be recognized and displayed correctly, which is why we recommend to not use the group in the current version unless you were told so by this guideline. 
+Please also note that most of the frontend components are recognized through its name and grouping. Most of the components can only be recognized when they are not in a group. Most groups without proper naming cannot be recognized and displayed correctly, which is why we recommend to not use the group in the current version unless you were told so by this guideline. 
