@@ -6,6 +6,7 @@ Buttons are divided into **text button** and **image button**.
 
 ## Text Button
 ![text button example images](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/button/text%20button.png?raw=true)
+
 ![text button example images](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/button/circle%20button.png?raw=true)
 
 _Examples of Text Button Apperance_
