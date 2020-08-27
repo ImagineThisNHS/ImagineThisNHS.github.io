@@ -14,4 +14,4 @@ There are no styling requirements. The group should contain a rectangle to funct
 * The name of the text element needs to contain `placeholder`.
 
 ![Example screenshot of textbox layers and group](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/textbox/textbox%20fig.png?raw=true)
-_Example of how placeholder, default value and textbox frame grouping_
+_Example of how placeholder and the textbox container grouping_
