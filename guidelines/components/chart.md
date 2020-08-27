@@ -12,4 +12,5 @@ There is no strict styling requirements on chart, right now the only thing we ca
 The chart called "Calls made and Well-being". The program will recognize it as long as you call a Group with the name that contains word `chart`.
 
 ![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/chart/chart%20fig.png?raw=true)
+
 _(Left) Grouping of layers (Right) Figma Designed Chart_
