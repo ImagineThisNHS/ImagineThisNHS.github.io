@@ -9,7 +9,7 @@ Images are mostly recognized as rectangles with the word `picture` contained in 
 * There is no restrictions on the content within the group, but they will only be shown on the frontend as a whole picture. 
 
 ### Example of Naming & Grouping
-The dropdown selector contains an option called “Football”. Therefore, the group name is dropdown, and it contains a text element named “option Football”.
+The example of image and its grouping within the Figma File.
 
 ![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image.png?raw=true)
 
