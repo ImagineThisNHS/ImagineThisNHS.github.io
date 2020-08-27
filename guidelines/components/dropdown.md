@@ -17,5 +17,6 @@ _Example of Placeholder Option_
 The dropdown selector contains an option called “Football”. Therefore, the group name is dropdown, and it contains a text element named “option Football”.
 
 ![image showing dropdown ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/downdown%20fig%20combined.png?raw=true)
+
 _(Left) Figma Designed Dropdown (Right) Grouping of layers_
 
