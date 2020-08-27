@@ -8,7 +8,7 @@ The design typically includes a rectangular border and a downward icon to indica
 * This group's name must contain `dropdown`
 * Each group that represents a dropdown component must contains one and only one text with its name contains the word 'option'. 
 * The text above will be extracted as the first option within the dropdown. There will be other default options generated along with it as placeholder, the user can add or rename them on the corresponding page if they want. 
-![image showing dropdown_placeholder](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/downdown.png?raw=true)
+![image showing dropdown_placeholder](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/dropdown.png?raw=true)
 
 ### Example of Naming & Grouping
 The dropdown selector contains an option called “Football”. Therefore, the group name is dropdown, and it contains a text element named “option Football”.
