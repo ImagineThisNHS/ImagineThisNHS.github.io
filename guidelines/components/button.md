@@ -13,7 +13,7 @@ _Examples of Text Button Apperance_
 
 
 ### Styling
-A Figma element composed of a _shape(rectangle or circle)_ and _text_.
+A Figma element composed of a _shape (rectangle or circle)_ and _text_.
 
 ### Naming & Grouping
 * The text button must be a group.
