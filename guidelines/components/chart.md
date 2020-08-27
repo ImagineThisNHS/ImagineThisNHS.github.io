@@ -11,4 +11,4 @@ There is no strict styling requirements on chart, right now the only thing we ca
 ### Example of Naming & Grouping
 The chart called "Calls made and Well-being". The program will recognize it as long as you call a Group with the name that contains word `chart`.
 
-![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/downdown%20fig%20combined.png?raw=true)
+![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assetsassets/chart.PNG)
