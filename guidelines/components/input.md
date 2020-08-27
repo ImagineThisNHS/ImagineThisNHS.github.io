@@ -2,13 +2,12 @@
 Input fields allow users to type in an app. Typically it is used within forms, send messages, search boxes, and more.
 
 ## Styling
-No styling requirements
+There are no styling requirements. The group must contain a rectangle to function as the container, style it accordingly in order to make the same style show up on the frontend code.  
 
 ## Naming and Grouping
-* Input elements should be in a group.
-* Name of the group for the input field must contain `input`.
-* Within the group it **must** include a rectangle (frame of the input field box).
-* This rectangle's name should include `rectangle`.
+* All the elements within the input components must be contained within a group.
+* The name of the group must contain the word`input`.
+* The group **must** contains a rectangle (container of the input field box).
 
 ### Placeholders
 * Placeholder text should be added within this group.
