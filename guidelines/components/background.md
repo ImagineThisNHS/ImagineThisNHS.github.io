@@ -7,7 +7,7 @@ The blue gradient, in the example below, shows a background element
 ![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png)
 
 ## Styling
-Any solid colour and shape will be recognised. 
+Any solid color and shape will be recognised. 
 
 This tool currently does not support gradients because their translation into React-Native is not simple and requires the use of an external package. One of the gradient colors will be used as a solid background instead.
 
