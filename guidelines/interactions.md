@@ -8,13 +8,11 @@ This tool can read pre-defined interactions (mostly transition between wireframe
 Currently, only `onTap` interaction within Figma are supported.
 ```
 
-## Limitations
-
-### Interaction Types
+## Interaction Types
 Currently, the Imagine This tool only supports `On Tap` interactions. Other interactions are ignored and will not be translated into code.
 
-### Design Logic (one button-one page)
+## Design Logic (one button-one page)
 Concerning to the logic part, currently the design sketch should follow the rule of "one button corresponding to one wireframe". If you have a common navigation bar in the app, please make sure that each of the buttons within only links to one and only one wireframe. Any exception may leads to logic errors with the link missing or incomplete code generation.
 
-### Animations
+## Animations
 Custom animations for interactions are not yet supported. For all animations, we use the default behaviour for iOS and Android. For instance, a modal view within iOS has a default animation of sliding up from the bottom.
