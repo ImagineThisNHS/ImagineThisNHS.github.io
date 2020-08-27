@@ -18,7 +18,7 @@ A Figma element composed of a _rectangle_ and _text_.
 ### Naming & Grouping
 * The text button should be a group.
 * The group name should contain `textbutton`.
-* Besides text, the group are also required to contain a rectangle or a cricle.
+* Besides text, the groups are also required to contain a rectangle or a cricle.
 
 
 ## Image Button
