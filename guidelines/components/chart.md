@@ -6,4 +6,9 @@ There is no strict styling requirements on chart, right now the only thing we ca
 ## Naming & Grouping
 * The whole Chart must be a group
 * This group's name must contain `chart`
-* Don't bother setting the type of the chart or the data within because we cannot recognize any of these. 
+* Don't bother setting the type of the chart or the data within because we cannot recognize any of these.
+
+### Example of Naming & Grouping
+The chart called "Calls made and Well-being". The program will recognize it as long as you call a Group with the name that contains word `chart`.
+
+![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/dropdown/downdown%20fig%20combined.png?raw=true)
