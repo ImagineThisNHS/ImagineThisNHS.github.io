@@ -23,6 +23,7 @@ Form Support Components (except its own background):
 * Dropdown
 * Images
 * Input Field
+* Slider
 * Switch
 * Text
 
