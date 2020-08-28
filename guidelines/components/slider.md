@@ -1,7 +1,7 @@
 # Slider
 Slider componenet are used to select from a range of values.
 
-### Example
+## Example
 ![example image for slider](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/slider/new%20slider%20fig.png?raw=true)
 
 _Example of the naming and grouping for sliders_
