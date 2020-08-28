@@ -2,6 +2,7 @@
 
 Background elements are usually the last element within a view that covers the entire view.
 
+## Example
 The blue gradient, in the example below, shows a background element
 
 ![Image showing screenshot of figma view](https://raw.githubusercontent.com/ImagineThisNHS/ImagineThisNHS.github.io/master/guidelines/assets/background/background%20fig%201%20(50%25).png)
