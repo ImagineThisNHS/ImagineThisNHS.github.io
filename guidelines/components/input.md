@@ -9,9 +9,10 @@ There are no styling requirements. The group should contain a rectangle to funct
 * The name of the group should contain the word`input`.
 * The group should contains a rectangle (container of the input field box).
 
-### Placeholders
+## Placeholders
 * Placeholder text should be added within this group.
 * The name of the text element needs to contain `placeholder`.
 
+## Example
 ![Example screenshot of textbox layers and group](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/textbox/textbox%20fig.png?raw=true)
 _Example of how placeholder and the textbox container grouping_
