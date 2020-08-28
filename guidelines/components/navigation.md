@@ -2,7 +2,7 @@
 
 There are two kinds of navigation bar, bottom navigation bar and top bar. The bottom navigation bar provides quick navigation with each of its button linked to one of the wireframes of the app sketch. While the top bar is generated automatically every time when a new page is generated.
 
-### Example
+## Example
 ![bottom navigation bar example](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/navigation/navigation%20fig.png?raw=true)
 
 _Bottom Navigation Bar_
