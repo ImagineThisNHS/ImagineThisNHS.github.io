@@ -3,14 +3,27 @@
 ## Example
 The example of the form and its naming example within the Figma File.
 
-![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image.png?raw=true)
+![image showing image_example and grouping in figma](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/form/form2.png?raw=true)
 
-_(Left) Grouping of layers  (Right) Figma Designed Image_
+_(Left) Grouping of layers  (Right) Figma Designed Form_
 
 ## Styling
-Images are mostly recognized as rectangles with one of the words `image`, `icon` or `picture` contained in its name. You can also make it a group containing whatever you want to make it look better. But notice the image recognition can only take the group as a whole wireframe component and generate a whole picture out of it, separated components with in the image group will not be able to separated on the frontend.
+Form works like a grouping on the frontend that wrapps an additional <View> tag around the chosen inter form components. Here in our product we only supplies visual effect of a frontend form, nothing for the application backend will be added for now. The form should contain a rectangle or a vector inside its Group which function as the background on the  frontend. 
 
 ## Naming
-* The image should be a rectangle or a group.
-* Images should contain one of the words `image`, `icon` or `picture` within it's name.
-* There is no restrictions on the content within the group, but they will only be shown on the frontend as a whole picture.
+* The whole form should be a Group, with required inner components as its elements. The inner components should follow its own corresponding instructions in this guideline, no further requirements are needed. 
+* Right now, the component form will only reconize the following components inside as its inner components, any other components (specified or not specified by this Guideline) will no be generated insider the Form, even if they are in the Form Group.
+
+Form Support Components (except its own background):
+* Text button / Image button
+* Chart
+* Dropdown
+* Images
+* Input Field
+* Switch
+* Text
+
+
+
+
+
