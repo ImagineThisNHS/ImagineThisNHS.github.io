@@ -1,5 +1,6 @@
 # Form
 
+
 ## Example
 The example of the form and its naming example within the Figma File.
 
@@ -7,8 +8,10 @@ The example of the form and its naming example within the Figma File.
 
 _(Left) Grouping of layers  (Right) Figma Designed Form_
 
+
 ## Styling
 Form works like a grouping on the frontend that wrapps an additional <View> tag around the chosen inter form components. Here in our product we only supplies visual effect of a frontend form, nothing for the application backend will be added for now. The form should contain a rectangle or a vector inside its Group which function as the background on the  frontend. 
+
 
 ## Naming
 * The whole form should be a Group, with required inner components as its elements. The inner components should follow its own corresponding instructions in this guideline, no further requirements are needed. 
