@@ -15,4 +15,5 @@ The Group accepts a Rectangle type component with its name being the exact word 
 
 ### Example
 ![example image for slider](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/slider/new%20slider%20fig.png?raw=true)
+
 _Example of the naming and grouping for sliders_
