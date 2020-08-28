@@ -1,6 +1,10 @@
 # Input field
 Input fields allow users to type in an app. Typically it is used within forms, send messages, search boxes, and more.
 
+## Example
+![Example screenshot of textbox layers and group](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/textbox/textbox%20fig.png?raw=true)
+_Example of how placeholder and the textbox container grouping_
+
 ## Styling
 There are no styling requirements. The group should contain a rectangle to function as the container, style it accordingly in order to make the same style show up on the frontend code.  
 
@@ -12,7 +16,3 @@ There are no styling requirements. The group should contain a rectangle to funct
 ## Placeholders
 * Placeholder text should be added within this group.
 * The name of the text element needs to contain `placeholder`.
-
-## Example
-![Example screenshot of textbox layers and group](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/textbox/textbox%20fig.png?raw=true)
-_Example of how placeholder and the textbox container grouping_
