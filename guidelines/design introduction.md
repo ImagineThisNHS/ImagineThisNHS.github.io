@@ -12,6 +12,11 @@ Here is a basic overview of how the Imagine This tool works. This will help expl
 5. A partial template will be generated for the Figma sketch. The output will be in the form of a zip, with files in their correponding position in the application folder. 
 
 ## Naming Scheme
+
+```warning
+Notice that when you create app with multiple pages, you need to make sure each page has their unique name and they are not named in the following words: SafeAreaView, Image, React, NavigationContainer.
+```
+
 Based on the description of how the system works, one of the core methods of identifying a UI component is through its name. For example, a text input field should include “Textbox” within its name, and a dropdown selector should be named as “Dropdown”. Apart from assisting us in component recognition, following these naming conventions and file structure in Figma will ensure good document readability and will enable reuse of components. It is considered good design practice and will be appreciated by any fellow designer who inherits the Figma project. 
 
 To get the most out of the Imagine This tool, we strongly recommend reading about our recommended naming conventions in the 'Components' section. If these conventions are not followed, this tool will still attempt to recognise UI elements and generetate their code, however, some design UI elements may not be recognised fully and correctly and the generated code may be incomplete.
