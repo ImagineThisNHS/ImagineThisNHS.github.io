@@ -6,10 +6,10 @@ No styling requirements, you can style the rectangle as you like to make the bac
 ## Naming & Grouping
 The slider component should have a name with the word `slider` contains within it. The type of the slider should be Group.
 
-Within the group, there should be three text components:
-* Maximum value exactly named as `max_value`.
-* Minimum value exactly named as `min_value`.
-* Current value exactly named as `cur_value`.
+Within the group, there should be three text sub-components:
+* Maximum value of the slider exactly named as `max_value`.
+* Minimum value of the slider exactly named as `min_value`.
+* Current value of the slider exactly named as `cur_value`.
 
 The Group accepts a Rectangle type component with its name being the exact word `background`
 
