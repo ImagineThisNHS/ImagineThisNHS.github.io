@@ -5,7 +5,7 @@ Buttons are divided into **text button** and **image button**.
 ```
 
 ## Text Button
-### Example
+### Examples
 ![text button example images](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/button/text%20button.png?raw=true)
 
 ![text button example images](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/button/circle%20button.png?raw=true)
@@ -22,7 +22,7 @@ A Figma element composed of a _shape (rectangle or circle)_ and _text_.
 
 
 ## Image Button
-### Example
+### Examples
 ![image button examples images](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/button/image%20button.png?raw=true)
 
 _Examples of Image Button Apperance_
