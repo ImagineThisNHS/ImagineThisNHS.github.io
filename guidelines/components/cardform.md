@@ -1,33 +1,50 @@
 # Card & Form
 
+## The philosphy behind card & form
+Cards are a common element in modern interface design. They are used to group elements that belong together and often define a section of a view that should be visually separated from the rest.
 
-## Example
-The example of the form and its naming example within the Figma File.
+Our tool looks at cards as a grouping container with certain visual properties (background color, padding, etc.) that is used to wrap other components that are showed within.
 
-![image showing image_example and grouping in figma](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/form/form2.png?raw=true)
+A very similar example is a form, which would be typically used to group multiple input elements. Our tool treats cards and forms in exactly the same way - as a container.
+
+## Examples
+An example of a form and its structure within a Figma File.
+
+![image showing a form in Figma](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/form/form2.png?raw=true)
 
 _(Left) Grouping of layers  (Right) Figma Designed Form_
 
+An example of a card and its structure within a Figma File.
+
+![image showing a card in Figma](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/form/card.png?raw=true)
+
+_(Left) Grouping of layers  (Right) Figma Designed Card_
+
+## Structure
+The whole card/form should be a Group that contains any elements that it should encapsulate (see examples above).
+
+It can contain almost any other components inside, such as:
+* Text buttons / Image buttons
+* Charts
+* Dropdowns
+* Images
+* Input Fields
+* Sliders
+* Switches
+* Cards/forms
+* Basic figma elements such as Text, Rectangles, Ellipses, etc.
+
+```note
+Cards/forms can contain other nested cards/forms inside, which enables rich and complex layouts to be built and converted.
+```
+
+```warning
+Currently, the only component that cannot be nested inside is the **bottom navigation bar** due to its unique function.
+```
 
 ## Styling
-Form works like a grouping on the frontend that wrapps an additional <View> tag around the chosen inter form components. Here in our product we only supplies visual effect of a frontend form, nothing for the application backend will be added for now. The form should contain a rectangle or a vector inside its Group which function as the background on the  frontend. 
+A card or a form can optionally contain a rectangle or a vector as the bottom layer inside its group (see examples above) called `background`. If present, this will define its background color, corner and border styling. 
 
 
 ## Naming
-* The whole form should be a Group, with required inner components as its elements. The inner components should follow its own corresponding instructions in this guideline, no further requirements are needed. 
-* Right now, the component form will only reconize the following components inside as its inner components, any other components (specified or not specified by this Guideline) will no be generated insider the Form, even if they are in the Form Group.
-
-Form Support Components (except its own background):
-* Text button / Image button
-* Chart
-* Dropdown
-* Images
-* Input Field
-* Slider
-* Switch
-* Text
-
-
-
-
-
+A card/form should contain either of the words `card` or `form` within its name to be treated as such. All nested components follow their respective rules.
