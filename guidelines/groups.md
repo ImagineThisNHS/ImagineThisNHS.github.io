@@ -2,10 +2,12 @@
 
 ```warning
 Out of the three, currently only **Groups** are supported by this tool.
+
 **Frames** and **Components** should be changed to **Groups** in order to be converted to useable source code.
 ```
 ```warning
-Due to API timeout limits, we had to limit our tool to not traverse into multiple nested groups. This limit is currently lifted only for the 'card' and 'form' components which allow other cards and forms to be nested inside.
+Due to API timeout limits, we had to limit our tool to not traverse into multiple nested groups. This limit is currently lifted only for the 'card' and 'form' components which allow other cards and forms to be nested inside. 
+
 Therefore, please try to avoid grouping elements into meaningless groups. Group elements only if they together form a component.
 ```
 
