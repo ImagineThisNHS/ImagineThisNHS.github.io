@@ -28,12 +28,12 @@ The project ID would be the following:
 ## 4. Selecting Screens
 Simply select the pages that you would like to convert into React Native project by selecting/unselecting all with a button or clicking on them individually.
 
-Once selected, click **Convert to Code**. This will start the conversion process and will download the generated sourcecode in a `.zip` file once completed.
+Once selected, click **Convert to Code**. This will start the conversion process and will download the generated source code in a `.zip` file once completed.
 
 ## 5. Running Generated Project
 We generate a complete React Native project source code out of your Figma screens. To run it, please follow the steps below:
 
-### 5.1 Prerequisities - Getting Node.js & Expo
+### 5.1 Prerequisites - Getting Node.js & Expo
 Requires Node.js LTS 12 or later - [download here](https://nodejs.org/en/).
 
 Requires expo-cli - Assuming that you have Node 12 LTS or greater installed, you can use npm to install the Expo CLI command line utility:
@@ -46,13 +46,21 @@ npm install -g expo-cli
 ```bash
 expo init ProjectName
 ```
+When prompted, select a blank template within terminal.
 
 ### 5.3 Copying Converted Files
 The generated code based on the Figma project will need to be unzipped. 
 
 The files will need to be copied to the newly initiated project within the **same** corresponding directories.
 
+#### Please Note:
+When copying files be sure to only replace existing files with the generated code downloaded. Do not delete any files that are create by default from the file.
+
 ### 5.4 Install dependencies
+Enter the directory of the project just created 
+
+Then run either:
+
 ```
 yarn install
 ```
@@ -77,4 +85,9 @@ On Android, use the Expo app to scan the QR code from your terminal to open your
 On iOS, use the built-in QR code scanner of the Camera app. 
 
 Alternatively, you can set up an emulator - [more information here](https://reactnative.dev/docs/environment-setup)
+
+### Beautifying the Code
+By default, the code will not be indented correctly due to the code generation.
+
+There is an easy fix for most modern code editors (such as visual studio code or atom) via plugins/extensions.
 
