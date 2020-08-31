@@ -54,7 +54,7 @@ The generated code based on the Figma project will need to be unzipped.
 The files will need to be copied to the newly initiated project within the **same** corresponding directories.
 
 #### Please Note:
-When copying files be sure to only replace existing files with the generated code downloaded. Do not delete any files that are create by default from the file.
+When copying files be sure to only replace existing files with the generated code downloaded. Do not delete any files that are created by default from the template file.
 
 ### 5.4 Install dependencies
 Enter the directory of the project just created 
