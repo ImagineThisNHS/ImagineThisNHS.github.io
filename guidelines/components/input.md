@@ -13,6 +13,9 @@ There are no styling requirements. The group should contain a rectangle to funct
 * The name of the group should contain the word`input`.
 * The group should contains a rectangle (container of the input field box).
 
-## Placeholders
-* Placeholder text should be added within this group.
-* The name of the text element needs to contain `placeholder`.
+## Labels && Placeholders
+* Label text should be added within this group, in the Type of text.
+* The name of the text element needs to contain the word `label`.
+
+* Placeholder text should be added within this group, in the Type of text.
+* The name of the text element needs to contain the word `placeholder`.
