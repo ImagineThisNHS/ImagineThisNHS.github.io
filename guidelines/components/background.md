@@ -18,4 +18,4 @@ Background elements should be named  `background`. Additionally, the name should
 However, the case of letters does not affect the recognition of component names; both `Background` and `background` are correct and translated into code correctly.
 
 ## Grouping
-All elements and UI components need to be ordered above the background element within a group.
+All elements and UI components should be ordered above the background element within a group. This is common sense as any elements below the background simply won't be visible even in the sketches.
