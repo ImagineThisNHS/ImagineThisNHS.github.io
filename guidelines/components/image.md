@@ -1,7 +1,7 @@
 # Images
 
 ## Example
-The example of image and its naming example within a Figma File.
+An example of an image within a Figma file:
 
 ![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image.png?raw=true)
 
