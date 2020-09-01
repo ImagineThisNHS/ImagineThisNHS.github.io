@@ -5,7 +5,7 @@ A powerful feature of modern design prototype software is creating links and int
 This tool can read pre-defined interactions (mostly transition between wireframes) within the Figma prototype and converts them into actual redirect links between app pages in the generated React-Native App. 
 
 ```warning
-Currently, only `onTap` interaction within Figma are supported.
+Currently, only `onTap` interactions within Figma are supported. `onTap` is a default interaction option.
 ```
 
 ## Interaction Types
