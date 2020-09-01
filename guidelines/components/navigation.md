@@ -34,4 +34,4 @@ The navigation bar can be styled through a `background` element like most other 
 
 _Example of Structure, Naming & Grouping_
 
-![top navigation bar example](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/navigation/bottom-navigation-structure.png?raw=true)
+![top navigation bar example](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/navigation/bottomnav-structure.png?raw=true)
