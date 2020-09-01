@@ -19,3 +19,8 @@ There are no styling requirements. The group should contain a rectangle to funct
 
 * Placeholder text should be added within this group, in the Type of text.
 * The name of the text element needs to contain the word `placeholder`.
+
+## Example of Label && Placeholder
+![Example label placeholder](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/textbox/label&&placeholder.png?raw=true)
+_Example of How Label and Placeholder looks on the frontend_
+
