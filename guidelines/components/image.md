@@ -1,16 +1,21 @@
 # Images
 
 ## Example
-The example of image and its naming example within the Figma File.
+The example of image and its naming example within a Figma File.
 
 ![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image.png?raw=true)
 
-_(Left) Grouping of layers  (Right) Figma Designed Image_
+_(Left) Example image layer  (Right) Figma Designed Image_
+
+## Structure
+Images are one of the most flexible components. They can be represented by a single bitmap image as in the example above. Or you can even have multiple elements/components of different types grouped together as an image. Our tool will simply render all the elements contained within as a bitmap.
+
+_Example of an image group, containing multiple vectors_
+
+![image showing image_example and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/image/image-group.png?raw=true)
 
 ## Styling
-Images are mostly recognized as rectangles with one of the words `image`, `icon` or `picture` contained in its name. You can also make it a group containing whatever you want to make it look better. But notice the image recognition can only take the group as a whole wireframe component and generate a whole picture out of it, separated components with in the image group will not be able to separated on the frontend. 
+Any styling will be converted into a bitmap and made part of the image.
 
 ## Naming
-* The image should be a rectangle or a group.
-* Images should contain one of the words `image`, `icon` or `picture` within it's name.
-* There is no restrictions on the content within the group, but they will only be shown on the frontend as a whole picture. 
+* An Image should contain one of the words `image`, `icon` or `picture` within its name.
