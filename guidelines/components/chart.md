@@ -2,10 +2,10 @@
 
 Charts are one of the more dynamic elements inside UI design that need to be connected and adjusted to real data. All charts that are designed in Figma are simply mockups and it would be pointless to try to derive any data from them. Therefore, we treat charts as mockups in the code generation as well, and simply try to make them as ready as possible to save developers' time.
 
-```Tip
+```tip
 Each chart template that we output will be a bezier line chart. However, it is very easy to switch the type to a bar chart, pie chart, etc. - these are all imported as part of the package.
 ```
-```Tip
+```tip
 We output a data structure template that should be relatively easy to fill in with your dynamic data.
 ```
 
