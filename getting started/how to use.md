@@ -87,7 +87,11 @@ On iOS, use the built-in QR code scanner of the Camera app.
 Alternatively, you can set up an emulator - [more information here](https://reactnative.dev/docs/environment-setup)
 
 ### Beautifying the Code
-By default, the code will not be indented correctly due to the code generation.
+By default, the code will not be indented correctly because it would be extremely challenging to keep track of the correct indents throughout all the layers of our conversion process.
 
-There is an easy fix for most modern code editors (such as visual studio code or atom) via plugins/extensions.
+However, it is extremely easy to format and beautify the file to your preferred indentation setup by using the built in features of modern code editors (or their plugins).
+
+```tip
+We strongly recommend using Visual Studio Code to handle your react-native project as it has great javascript-specific built-in features. One of them is built in javascript code formatter (Right click + Format Document, or simply 'Shift+Alt+F')
+```
 
