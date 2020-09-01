@@ -35,6 +35,6 @@ A Figma element composed of _graphics (or group of shapes)_ without text.
 * The group name should contain the word `imagebutton`.
 * The image button group should have a sub-component with its name containing one of the words `image`, `icon` or `picture`, this component will be downloaded as the image.
 
-```note
+```tip
 The image sub-component can be a single bitmap/vector image or even a group of any other elements (such as multiple vectors that collectively form an image). In the latter case, this tool will download and render the entire group as a bitmap.
 ```

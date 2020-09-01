@@ -35,3 +35,7 @@ The navigation bar can be styled through a `background` element like most other 
 _Example of Structure, Naming & Grouping_
 
 ![top navigation bar example](https://github.com/ImagineThisUCL/ImagineThisUCL.github.io/blob/master/guidelines/assets/navigation/bottomnav-structure.png?raw=true)
+
+```tip
+Pay special attention to the navigation bar and consider it carefully as it plays an important role within the app and also is by far the most complex component that we can generate. Designing it well can save hours of valuable development time.
+```

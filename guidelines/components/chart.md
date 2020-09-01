@@ -25,7 +25,7 @@ Our tool currently outputs a chart template in place of any chart that it finds 
 ## Styling
 Styling of the chart itself (datapoints, lines, legend...) is currently not considered. 
 
-```Tip
+```tip
 You can still style its container and any elements around it (such as its heading).
 ```
 

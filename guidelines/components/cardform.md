@@ -34,7 +34,7 @@ It can contain almost any other components inside, such as:
 * Cards/forms
 * Basic figma elements such as Text, Rectangles, Ellipses, etc.
 
-```note
+```tip
 Cards/forms can contain other nested cards/forms inside, which enables rich and complex layouts to be built and converted.
 ```
 
