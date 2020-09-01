@@ -1,20 +1,29 @@
 # Slider
-Slider componenet are used to select from a range of values.
+Sliders are used to select from a range of values.
 
-## Example
+## Examples
 ![example image for slider](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/slider/new%20slider%20fig.png?raw=true)
 
 _Example of the naming and grouping for sliders_
 
+![example image for slider](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/slider/slider-example.png?raw=true)
+
+_Another example of a slider group_
+
+## Structure
+A slider should be a group that contains a minimum of three text sub-components:
+* Maximum value of the slider, its name containing `max_value`.
+* Minimum value of the slider, its name containing `min_value`.
+* Current value of the slider, its name containing `cur_value`.
+All these values should be **numbers**.
+
+Apart from these, it can also contain any graphics that are part of the slider.
+
 ## Styling
-No styling requirements, you can style the rectangle as you like to make the background of the slider look the same way on the frontend. 
+Slider currently has a default appearance on each OS, which can be easily tweaked by the developer.
+```tip
+Wrap a slider in a form or card to give it padding and container styling.
+```
 
-## Naming & Grouping
-The slider component should have a name with the word `slider` contains within it. The type of the slider should be Group.
-
-Within the group, there should be three text sub-components:
-* Maximum value of the slider exactly named as `max_value`.
-* Minimum value of the slider exactly named as `min_value`.
-* Current value of the slider exactly named as `cur_value`.
-
-The Group accepts a Rectangle type component with its name being the exact word `background`
+## Naming
+The slider component (group) should have a name with the word `slider` contained within it + textual sub-components of `max_value`, `min_value` and `cur_value` as mentioned above.
