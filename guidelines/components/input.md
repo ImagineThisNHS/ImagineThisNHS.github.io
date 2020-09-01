@@ -1,4 +1,4 @@
-# Input field
+# Input Field
 Input fields allow users to enter user input. Typically they are used within forms, search boxes, to send messages and more.
 
 ## Example
