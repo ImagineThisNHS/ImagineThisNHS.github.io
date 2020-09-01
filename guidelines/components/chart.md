@@ -1,18 +1,34 @@
 # Chart
 
-## Example
-The chart called "Calls made and Well-being". The program will recognize it as long as you call a Group with the name that contains word `chart`.
+Charts are one of the more dynamic elements inside UI design that need to be connected and adjusted to real data. All charts that are designed in Figma are simply mockups and it would be pointless to try to derive any data from them. Therefore, we treat charts as mockups in the code generation as well, and simply try to make them as ready as possible to save developers' time.
+
+```Tip for developers
+Each chart template that we output will be a bezier line chart. However, it is very easy to switch the type to a bar chart, pie chart, etc. - these are all imported as part of the package.
+```
+```Tip for developers
+We output a data structure template that should be relatively easy to fill in with your dynamic data.
+```
+
+## Examples
 
 ![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/chart/chart%20fig.png?raw=true)
 
 _(Left) Grouping of layers (Right) Figma Designed Chart_
 
+![image showing chart ui and grouping in figma](https://github.com/ImagineThisNHS/ImagineThisNHS.github.io/blob/master/guidelines/assets/chart/chart-example.png?raw=true)
+
+_(Left) Grouping of layers (Right) Chart represented by an image_
+
+## Structure
+Our tool currently outputs a chart template in place of any chart that it finds in the wireframes. There is no specific structure requirement apart from the chart being a group.
+
 ## Styling
-There is no strict styling requirements on chart, right now the only thing we can provide is a fixed/hardcoded chart right at the place where you want the chart putted. So don't bother with any configuration within it because there is nothing we can change about the chart except its width and height (which will be set according to the width and height of the group you called `chart` in the Figma). 
+Styling of the chart itself (datapoints, lines, legend...) is currently not considered. 
 
-## Naming & Grouping
-* The whole Chart should be a group
-* This group's name should contain `chart`
-* Don't bother setting the type of the chart or the data within because we cannot recognize any of these.
+```Tip
+You can still style its container and any elements around it (such as its heading).
+```
 
+## Naming
+* The chart group's name should contain `chart`.
 
