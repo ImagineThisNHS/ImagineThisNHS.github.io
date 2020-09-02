@@ -1,6 +1,6 @@
 # Templates and Examples
 
-## Template of UI Elements
+## UI Elements
 The UI template file aims to provide all components that are supported by Imagine This. These pre-prepared elements are set up to adhere to the guidelines of the software. From there, you can build out your designs from scratch or use it as a reference to how elements are constructed.
 
 [UI Elements Template](https://www.figma.com/file/I0DiWpmkqPomW8b7w0c0bu/UI-Elements-Template)
