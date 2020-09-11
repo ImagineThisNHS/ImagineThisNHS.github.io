@@ -1,7 +1,8 @@
 # Quick Start Guide
 
 ## 1. Open the ImagineThis web app
-Go to our deployed version or get it running locally.
+Go to our deployed version [here](http://212.71.234.198/) or get it running locally.
+
 To run everything locally, you need to clone both the 'ImagineThisServer' and 'imaginethisweb' repositories and follow their respective readmes to get them up and running.
 
 ## 2. Access Token & OAuth 2.0 Authentication
