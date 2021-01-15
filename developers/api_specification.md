@@ -2,6 +2,52 @@
 
 ## Conversion endpoints
 
+### Authentication
+
+- **Method**: ``GET``
+- **Endpoint**: ``/authToken?projectID=&accessToken=&authType=``
+- **Request**:  N/A
+
+- **Response**: 
+
+```json
+{
+    "projectName": "Untitled",
+    "wireframeList": ["list", "of", "wireframes"]
+}
+```
+
+### Generate page
+
+- **Method**: `POST`
+- **Endpoint**: ``/generatePage``
+- **Request**: 
+
+```json
+{
+    "accessToken": "153903-bbf3fe57-22dd-4727-bd85-64fd5aed8509",
+    "projectID": "LgWqYTZMdjG26oA1CxbWaE",
+    "type": "originalToken/oauth2Token",
+    "nameList": ["list", "of", "wireframes"]
+}
+```
+
+- **Response**:
+
+```json
+{
+    "isSuccess": true,
+    "fileName": "OutputStorage/LgWqYTZMdjG26oA1CxbWaE.zip"
+}
+```
+
+### Download generated prototype
+
+- **Method**: ``GET``
+- **Endpoint**: ``/downloadFile?fileName=``
+- **Request**: N/A
+- **Response**: N/A
+
 
 ## Feedback endpoints
 ### List all feedback for given project
