@@ -49,8 +49,8 @@
 - **Response**: N/A
 
 
-## Feedback endpoints
-### List all feedback for given project
+## Feedback endpoints (Not implemented yet)
+### List all feedback for given project (Not implemented yet)
 - **Method**: ``GET``
 - **Endpoint**: ``/api/v1/projects/{project-id}/feedback``
 - **Request**: N/A
@@ -72,7 +72,7 @@
 }
 ```
 
-### Get details about a specific feedback
+### Get details about a specific feedback (Not implemented yet)
 - **Method**: ``GET``
 - **Endpoint**: ``/api/v1/projects/{project-id}/feedback/{feedback-id}``
 - **Request**: N/A
@@ -89,7 +89,7 @@
 }
 ```
 
-### Create a new feedback for a project
+### Create a new feedback for a project (Not implemented yet)
 - **Method**: ``POST``
 - **Endpoint**: ``/api/v1/projects/{project-id}/feedback``
 - **Request**:
@@ -106,7 +106,7 @@
 }
 ```
 
-### Vote on existing feedback
+### Vote on existing feedback (Not implemented yet)
 - **Method**: ``POST``
 - **Endpoint**: ``/api/v1/projects/{project-id}/feedback/{feedback-id}/vote``
 - **Request**:
