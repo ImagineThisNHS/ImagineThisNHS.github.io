@@ -95,6 +95,7 @@
 - **Request**:
 ```json
 {
+    "user_id": "bf5ec5d2-58d1-11eb-ae93-0242ac130002",
     "author": "Elena Hedwick",
     "content": "I don't like the background color of the theme. Too dark."
 }
@@ -112,6 +113,7 @@
 - **Request**:
 ```json
 {
+    "user_id": "bf5ec5d2-58d1-11eb-ae93-0242ac130002",
     "vote": 1
 }
 ```
