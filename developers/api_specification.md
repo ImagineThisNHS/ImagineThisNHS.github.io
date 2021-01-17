@@ -64,9 +64,10 @@
             "project_id": "LgWqYTZMdjG26oA1CxbWaE",
             "upvotes": 7,
             "downvotes": 4,
-            "author": "John Dow",
+            "user_id": "bf5ec5d2-58d1-11eb-ae93-0242ac130002",
+            "user_name": "John Dow",
             "timestamp": 1610712842,
-            "content": "Great prototype! I would just change the font of the sidebar."
+            "text": "Great prototype! I would just change the font of the sidebar."
         }
     ] 
 }
@@ -83,9 +84,10 @@
     "project_id": "LgWqYTZMdjG26oA1CxbWaE",
     "upvotes": 7,
     "downvotes": 4,
-    "author": "John Dow",
+    "user_id": "bf5ec5d2-58d1-11eb-ae93-0242ac130002",
+    "user_name": "John Dow",
     "timestamp": 1610712842,
-    "content": "Great prototype! I would just change the font of the sidebar."
+    "text": "Great prototype! I would just change the font of the sidebar."
 }
 ```
 
@@ -96,8 +98,8 @@
 ```json
 {
     "user_id": "bf5ec5d2-58d1-11eb-ae93-0242ac130002",
-    "author": "Elena Hedwick",
-    "content": "I don't like the background color of the theme. Too dark."
+    "user_name": "Elena Hedwick",
+    "text": "I don't like the background color of the theme. Too dark."
 }
 ```
 - **Response**:
