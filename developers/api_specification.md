@@ -6,7 +6,7 @@ This is the list of available endpoints with examples of requests and responses.
 ### Authentication
 
 - **Method**: ``GET``
-- **Endpoint**: ``/authToken?projectID=&accessToken=&authType=``
+- **Endpoint**: ``/api/v1/authToken?projectID=&accessToken=&authType=``
 - **Request**:  N/A
 
 - **Response**: 
@@ -21,7 +21,7 @@ This is the list of available endpoints with examples of requests and responses.
 ### Generate page
 
 - **Method**: `POST`
-- **Endpoint**: ``/generatePage``
+- **Endpoint**: ``/api/v1/generatePage``
 - **Request**: 
 
 ```json
@@ -45,7 +45,7 @@ This is the list of available endpoints with examples of requests and responses.
 ### Download generated prototype
 
 - **Method**: ``GET``
-- **Endpoint**: ``/downloadFile?fileName=``
+- **Endpoint**: ``/api/v1/downloadFile?fileName=``
 - **Request**: N/A
 - **Response**: N/A
 
