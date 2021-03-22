@@ -60,39 +60,30 @@ When copying files be sure to only replace existing files with the generated cod
 ### 5.4 Install dependencies
 Enter the directory of the project just created 
 
-Then run either:
+Then run:
 
-```
-yarn install
-```
-or
 ```
 npm install
 ```
 
-### 5.5 Run the App
-```
-yarn start
-```
-or
+### 5.5 Start the development server
+
 ```
 npm start
 ```
 
 This command will start a development server on your machine. 
+### 5.6 Run your App on your device
 
+#### 5.6.1 Run on mobile device
 Install the [Expo](https://expo.io/) client app on your iOS or Android phone and connect to the same wireless network as your computer. 
-On Android, use the Expo app to scan the QR code from your terminal to open your project. 
-On iOS, use the built-in QR code scanner of the Camera app. 
+On Android, use the ```Scan QR Code``` function in Expo app to scan the QR code from your terminal to open your project. 
+On iOS, use the built-in QR code scanner of the phone's Camera. 
 
 Alternatively, you can set up an emulator - [more information here](https://reactnative.dev/docs/environment-setup)
 
-### Beautifying the Code
-By default, the code will not be indented correctly because it would be extremely challenging to keep track of the correct indents throughout all the layers of our conversion process.
+#### 5.6.2 Run in web browser
+You can also run the generated prototype on your web browser. Select the ```Run in web brower``` mode in the development page. The generated prototype will be automatically run in your web browser.
 
-However, it is extremely easy to format and beautify the file to your preferred indentation setup by using the built in features of modern code editors (or their plugins).
 
-```tip
-We strongly recommend using Visual Studio Code to handle your react-native project as it has great javascript-specific built-in features. One of them is built in javascript code formatter (Right click + Format Document, or simply 'Shift+Alt+F')
-```
 
