@@ -14,16 +14,24 @@ Prof. Joseph Anthony Connor, NHS
 
 ## 3. Supervisors
 
-Dr. Dean Mohamedally, Dr. Emmanuel Letier, UCL
+Dr. Dean Mohamedally, Dr. Emmanuel Letier, University College London
 
-## 4. Contributors
+## 4. Teaching assistants
+
+Binghao Chai
+
+## 5. Contributors
 
 ### Version 2 Team
+
+#### MSc Software Systems Engineering programme (UCL), working on this project as part of COMP0102 in 2020-2021 cohort.
 
 [Denoy Hossain](https://github.com/dinojs), [Karish Singh](https://github.com/KashSingh1), [Lukas Cerny](https://github.com/lukasotocerny), [Rui Zhou](https://github.com/bbaayezi), [Zhongyuan Li](https://github.com/zhongyuanli), [Xin Deik Goh](https://github.com/DerrickGXD)
 
 ### Version 1 Team
 
+#### MSc Software Systems Engineering programme (UCL), Industrial Project, Summer 2020
+
 Chuyao Liu, Jeremy Chang, Yiding Xue, Yiren Zhang, Yutong Wang, Vojtech Adam
 
-<img  width="25%" src="https://user-images.githubusercontent.com/22294355/111882583-4206f880-89ae-11eb-859a-54ee91e67256.png" alt="Industry Exchange Network for the NHS">
+<img  width="30%" src="https://user-images.githubusercontent.com/22294355/111882583-4206f880-89ae-11eb-859a-54ee91e67256.png" alt="Industry Exchange Network for the NHS">
