@@ -31,10 +31,16 @@ Simply select the pages that you would like to convert into React Native project
 
 Once selected, click **Convert to Code**. This will start the conversion process and will download the generated source code in a `.zip` file once completed.
 
-## 5. Running Generated Project
+## 5. Sharing project
+If you want to share the project with other users, you simply share the URL of the project page or share the project ID.
+
+## 6. Run app through ImagineThis
+Follow the instruction on ImagineThis website and scan the QR-code in order to run the app on your phone.
+
+## 7. Run app locally
 We generate a complete React Native project source code out of your Figma screens. To run it, please follow the steps below:
 
-### 5.1 Prerequisites - Getting Node.js & Expo
+### 7.1 Prerequisites - Getting Node.js & Expo
 Requires Node.js LTS 12 or later - [download here](https://nodejs.org/en/).
 
 Requires expo-cli - Assuming that you have Node 12 LTS or greater installed, you can use npm to install the Expo CLI command line utility:
@@ -43,13 +49,13 @@ Requires expo-cli - Assuming that you have Node 12 LTS or greater installed, you
 npm install -g expo-cli
 ```
 
-### 5.2 Initialising a New Expo Project
+### 7.2 Initialising a New Expo Project
 ```bash
 expo init ProjectName
 ```
 When prompted, select a blank template within terminal.
 
-### 5.3 Copying Converted Files
+### 7.3 Copying Converted Files
 The generated code based on the Figma project will need to be unzipped. 
 
 The files will need to be copied to the newly initiated project within the **same** corresponding directories.
@@ -57,7 +63,7 @@ The files will need to be copied to the newly initiated project within the **sam
 #### Please Note:
 When copying files be sure to only replace existing files with the generated code downloaded. Do not delete any files that are created by default from the template file.
 
-### 5.4 Install dependencies
+### 7.4 Install dependencies
 Enter the directory of the project just created 
 
 Then run:
@@ -66,23 +72,23 @@ Then run:
 npm install
 ```
 
-### 5.5 Start the development server
+### 7.5 Start the development server
 
 ```
 npm start
 ```
 
 This command will start a development server on your machine. 
-### 5.6 Run your App on your device
+### 7.6 Run your app on your device
 
-#### 5.6.1 Run on mobile device
+#### 7.6.1 Run on mobile device
 Install the [Expo](https://expo.io/) client app on your iOS or Android phone and connect to the same wireless network as your computer. 
 On Android, use the ```Scan QR Code``` function in Expo app to scan the QR code from your terminal to open your project. 
 On iOS, use the device's built-in camera app to scan the QR code.
 
 Alternatively, you can set up an emulator - [more information here](https://reactnative.dev/docs/environment-setup)
 
-#### 5.6.2 Run in web browser
+#### 7.6.2 Run in web browser
 You can also run the generated prototype on your web browser. Select the ```Run in web brower``` mode in the development page. The generated prototype will be automatically run in your web browser.
 
 
